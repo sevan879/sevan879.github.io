@@ -1,16 +1,28 @@
 body {
-    background-color: #232527;
+    background-color: #a5a5a5;
 }
 
 h1 {
     color:blueviolet;
-    font-size: xx-large;
-    font-weight: 700;
+    font-size: xxx-large;
 }
 
 p {
     color: aquamarine;
     font-size: medium;
 
+}
+
+div.hero-image {
+    margin-top: -0.5vw;
+    margin-left: -0.5vw;
+    margin-right: -0.5vw;
+    border: 5px outset rebeccapurple;
+    background-color: lightblue;    
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Imouto\ 22.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
